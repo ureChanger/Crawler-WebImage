@@ -7,7 +7,7 @@ import os
 #사전에 'images' 디렉토리를 만들어주세요!
 
 #검색할 키워드를 입력
-keyword = "강다니엘"
+keyword = "지수"
 
 #키워드와 같은 이름의 디렉토리 생성
 os.makedirs("images/"+keyword)
