@@ -14,23 +14,28 @@ keyword = "germany travel"
 
 #url 소스를 가져옴
 url = "https://www.google.com/search?q="
+queryImg = "&tbm=isch"
+callDetail = "#imgrc="
 
-req = Request(url+quote_plus(keyword)+"&tbm=isch", headers={'User-Agent': 'Chrome'})
+req = Request(url+quote_plus(keyword)+queryImg, headers={'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36'})
 res = urlopen(req, timeout=10).read()
+print("good!")
 
 soup = BeautifulSoup(res, 'html.parser')
-num = 0
+num = 1
 
-for anchor in soup.find_all('div'):
-    imageURL = anchor.find('img')
-    num += 1
-        
+for anchor in soup.find_all('div', class_='isv-r PNCib MSM1fd BUooTd'):
+    dataID = quote_plus(anchor.get('data-id'))
+    imageURL = anchor.find('img').get('data-src')
     
-    if "JUexfJqLEcoeeM" in anchor:
-        anchor = str(anchor)
-        print(anchor)
-        print("찾음")
-
+    #개발해야함 - 세부이미지 class로 검색 후 이미지 링크 구하기
+    resImg = urlopen(req+callDetail+dataID).read()
+    soupImg = BeautifulSoup(resImg, 'html.parser')
+    
+    
+    imageURL = anchor.find('img').get('data-src')
+    
+    num += 1
         
         #JUexfJqLEcoeeM
 # #네이버 이미지 검색에서 이미지 url을 가지고 옴(50개)
