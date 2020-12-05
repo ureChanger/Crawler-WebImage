@@ -23,15 +23,19 @@ Google과 Naver의 검색 이미지들을 한번에 원하는 수 만큼 다운�
 
 ## 사용 전에 꼭 ! 😆
 When Use on Static Site(crawlingGoogle.py, crawlingNaver.py)
-''' pip install urllib
- pip install bs4'''
+``` pip install urllib
+ pip install bs4
+ ```
 
 When Use on Dynamic Site(Crawler-GoogleImg, Crawler-NaverImg)
-''' pip install selenium
+``` pip install selenium
  pip install urllib
- pip install Pillow'''
-''' install Chrome
+ pip install Pillow 
+ ```
+ 
+``` install Chrome
  install ChromeDriver
-'''
+```
+
 #### ChromeDriver Download
 https://chromedriver.chromium.org/
