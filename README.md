@@ -6,8 +6,8 @@
 > 기간: 2020.12.01 ~ 2020.12.05
 ![android_badge](https://img.shields.io/badge/-Android-green?logo=Android&logoColor=black)
 
-![python_badge](https://img.shields.io/badge/-ver2.7-blue?logo=Python&logoColor=white)
-![Python_badge](https://img.shields.io/badge/-ver3.6-blue?logo=Python&logoColor=white)
+![python_badge](https://img.shields.io/badge/-ver_2.7-blue?logo=Python&logoColor=white)
+![Python_badge](https://img.shields.io/badge/-ver_3.6-blue?logo=Python&logoColor=white)
 
 ## 프로젝트 설명
 Beautiful Soup 와 Selenium을 이용하여 Google, Naver의 검색 이미지들을 원하는 수만큼 가져오는 크롤링 프로젝트
