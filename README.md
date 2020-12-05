@@ -1,7 +1,9 @@
 # Crawler-WebImage
 > ARMY 11개월 기념 파이썬 프로젝트
-## 사진
-> 기간: 2020.12.04 ~ 2020.12.05
+![content](https://user-images.githubusercontent.com/56578913/101244919-a4642200-374c-11eb-850c-9bc6f873e142.png)
+> 기간: 2020.12.01 ~ 2020.12.05
+
+## 프로젝트 설명
 Beautiful Soup 와 Selenium을 이용하여 Google, Naver의 검색 이미지들을 원하는 수만큼 가져오는 크롤링 프로젝트
 
 For Static Site
