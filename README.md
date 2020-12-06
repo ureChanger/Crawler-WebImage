@@ -54,7 +54,7 @@ https://chromedriver.chromium.org/
 ```
 >Example
 ```python
-> keyword = "your keyword"
+keyword = "your keyword"
 ```
 
 - 동적 사이트에서의 크롤링: Crawler-GoogleImg, Crawler-NaverImg 
@@ -67,12 +67,12 @@ https://chromedriver.chromium.org/
 ```
 >Example
 ```python
-> search_term = "your keyword"
-> max_image = 150
+search_term = "your keyword"
+max_image = 150
 ```
 
 ## Architecture
-main.py -> search_and_download -> get_image_links -> download_image
+main.py > search_and_download > get_image_links > download_image
 
 ## Developer
 - [박길현](https://github.com/ureChanger)
