@@ -44,6 +44,9 @@ install ChromeDriver
 #### ChromeDriver Download
 https://chromedriver.chromium.org/
 
+#### ChromeDriver Download on groomIDE
+https://help.goorm.io/en/goormide/18.faq/language-and-environment/selenium-chromewebdriver#check-the-chrome-version
+
 ## How to use
 - 정적 사이트에서의 크롤링: crawlingGoogle.py, crawlingNaver.py 
 ```
