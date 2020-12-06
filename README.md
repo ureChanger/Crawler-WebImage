@@ -23,7 +23,7 @@ Google과 Naver의 검색 이미지들을 한번에 원하는 수 만큼 다운�
 ![image](https://user-images.githubusercontent.com/56578913/101245308-4be25400-374f-11eb-8365-ba71fcfbc328.png)
 ![image](https://user-images.githubusercontent.com/56578913/101245328-687e8c00-374f-11eb-9986-fd826e7611c6.png)
 
-## 사용 전에 꼭 ! 😆
+## Dependency Module - 사용 전에 꼭 ! 😆
 When Use on Static Site(crawlingGoogle.py, crawlingNaver.py)
 ``` 
 pip install urllib
@@ -46,6 +46,7 @@ install ChromeDriver
 https://chromedriver.chromium.org/
 
 ## 사용법
+` 0. images 디렉토리를 생성 `
 - 정적 사이트에서의 크롤링: crawlingGoogle.py, crawlingNaver.py 
 ```
 1. crawlingGoogle.py 또는 crawlingNaver.py의 keyword에 검색어를 입력
@@ -63,11 +64,5 @@ https://chromedriver.chromium.org/
 ## Architecture
 main.py -> search_and_download -> get_image_links -> download_image
 
-## Dependency Module
-```
-import urllib
-import bs4
-import selenium
-```
 ## Developer
 - [박길현](https://github.com/ureChanger)
