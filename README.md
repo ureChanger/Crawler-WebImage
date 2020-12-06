@@ -72,7 +72,21 @@ max_image = 150
 ```
 
 ## Architecture
-main.py > search_and_download > get_image_links > download_image
+main > search_and_download > get_image_links > download_image
+
+## Functions
+```python
+from search_and_download import search_and_download
+from get_image_links import fetch_image_urls
+from download_image import persist_image
+```
+
+|Name|Description|
+|---|---|
+|main|Main-검색할 키워드와 이미지 수를 입력|
+|search_and_download|이미지 검색, 저장 함수를 호출하는 함수|
+|fetch_image_urls|이미지의 url을 가져오는 함수|
+|persist_image|이미지를 정해진 경로에 저장하는 함수|
 
 ## Developer
 - [박길현](https://github.com/ureChanger)
