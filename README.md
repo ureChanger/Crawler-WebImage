@@ -5,6 +5,8 @@
 >
 >![python_badge](https://img.shields.io/badge/-ver_2.7-blue?logo=Python&logoColor=white)
 >![Python_badge](https://img.shields.io/badge/-ver_3.6-blue?logo=Python&logoColor=white)
+>![goormIDE_badge](https://img.shields.io/badge/goormIDE-FREE-blue)
+
 - 기간: 2020.12.01 ~ 2020.12.05
 - [참고 기술블로그](https://towardsdatascience.com/image-scraping-with-python-a96feda8af2d)
 
