@@ -7,6 +7,7 @@ Google과 Naver의 검색 이미지들을 한번에 원하는 수 만큼 다운�
 >![goormIDE_badge](https://img.shields.io/badge/goormIDE-FREE-blue)
 >![python_badge](https://img.shields.io/badge/-ver_2.7-blue?logo=Python&logoColor=white)
 >![Python_badge](https://img.shields.io/badge/-ver_3.6-blue?logo=Python&logoColor=white)
+>
 >정적 페이지를 위한 크롤링 파일은 Beautiful Soup, urllib를, 동적 페이지를 위한 크롤링 디렉토리는 Selenium, Pillow를 주로 이용함
 
 - 기간: 2020.12.01 ~ 2020.12.05
