@@ -52,8 +52,9 @@ https://chromedriver.chromium.org/
 2. 터미널에 python crawlingGoogle.py 또는 crawlingNaver.py를 입력
 3. 이미지 다운로드 확인
 ```
+example
 ```python
-keyword = "spain travel"
+keyword = "your keyword"
 ```
 
 - 동적 사이트에서의 크롤링: Crawler-GoogleImg, Crawler-NaverImg 
@@ -64,6 +65,7 @@ keyword = "spain travel"
 3. Crawler/main.py의 max_image에 다운로드 할 이미지 수를 입력
 4. 터미널에 python main.py 입력
 ```
+example
 ```python
 search_term = "your keyword"
 max_image = 150
