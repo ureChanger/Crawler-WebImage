@@ -60,6 +60,7 @@ https://chromedriver.chromium.org/
 1. Google, Naver 중 이미지를 얻을 곳을 선택하고 그에 맞는 디렉토리를 선택
 2. Crawler/main.py의 search_term에 검색어를 입력
 3. Crawler/main.py의 max_image에 다운로드 할 이미지 수를 입력
+4. 터미널에 python main.py 입력
 ```
 
 ## Architecture
