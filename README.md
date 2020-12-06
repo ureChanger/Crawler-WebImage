@@ -7,8 +7,6 @@ Google과 Naver의 검색 이미지들을 한번에 원하는 수 만큼 다운�
 >![goormIDE_badge](https://img.shields.io/badge/goormIDE-FREE-blue)
 >![python_badge](https://img.shields.io/badge/-ver_2.7-blue?logo=Python&logoColor=white)
 >![Python_badge](https://img.shields.io/badge/-ver_3.6-blue?logo=Python&logoColor=white)
->
->정적 페이지를 위한 크롤링 파일은 Beautiful Soup, urllib를, 동적 페이지를 위한 크롤링 디렉토리는 Selenium, Pillow를 주로 이용함
 
 - 기간: 2020.12.01 ~ 2020.12.05
 - [참고 기술블로그](https://towardsdatascience.com/image-scraping-with-python-a96feda8af2d)
@@ -23,6 +21,7 @@ Google과 Naver의 검색 이미지들을 한번에 원하는 수 만큼 다운�
 ![image](https://user-images.githubusercontent.com/56578913/101245328-687e8c00-374f-11eb-9986-fd826e7611c6.png)
 
 ## Dependency Module - 사용 전에 꼭 ! 😆
+>정적 페이지를 위한 크롤링 파일은 Beautiful Soup, urllib를, 동적 페이지를 위한 크롤링 디렉토리는 Selenium, Pillow를 주로 이용함
 When Use on Static Site(crawlingGoogle.py, crawlingNaver.py)
 ``` 
 pip install urllib
