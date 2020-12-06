@@ -35,7 +35,6 @@ When Use on Dynamic Site(Crawler-GoogleImg, Crawler-NaverImg)
 pip install selenium
 pip install urllib
 pip install Pillow
-import os
 ```
  
 ```
