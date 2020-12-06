@@ -34,7 +34,8 @@ When Use on Dynamic Site(Crawler-GoogleImg, Crawler-NaverImg)
 ```
 pip install selenium
 pip install urllib
-pip install Pillow 
+pip install Pillow
+import os
 ```
  
 ```
@@ -46,9 +47,9 @@ install ChromeDriver
 https://chromedriver.chromium.org/
 
 ## 사용법
-` 0. images 디렉토리를 생성 `
 - 정적 사이트에서의 크롤링: crawlingGoogle.py, crawlingNaver.py 
 ```
+0. images 디렉토리를 생성
 1. crawlingGoogle.py 또는 crawlingNaver.py의 keyword에 검색어를 입력
 2. 터미널에 python crawlingGoogle.py 또는 crawlingNaver.py를 입력
 3. 이미지 다운로드 확인
@@ -56,6 +57,7 @@ https://chromedriver.chromium.org/
 
 - 동적 사이트에서의 크롤링: Crawler-GoogleImg, Crawler-NaverImg 
 ```
+0. images 디렉토리를 생성
 1. Google, Naver 중 이미지를 얻을 곳을 선택하고 그에 맞는 디렉토리를 선택
 2. Crawler/main.py의 search_term에 검색어를 입력
 3. Crawler/main.py의 max_image에 다운로드 할 이미지 수를 입력
