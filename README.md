@@ -48,7 +48,7 @@ https://chromedriver.chromium.org/
 https://help.goorm.io/en/goormide/18.faq/language-and-environment/selenium-chromewebdriver#check-the-chrome-version
 
 ## How to use
-- 정적 사이트에서의 크롤링: crawlingGoogle.py, crawlingNaver.py 
+- 정적 사이트에서의 크롤링: Crawler-WebImage/Crawler_StaticSiteImg/crawlingGoogle.py, crawlingNaver.py 
 ```
 0. images 디렉토리를 생성
 1. crawlingGoogle.py 또는 crawlingNaver.py의 keyword에 검색어를 입력
@@ -60,18 +60,23 @@ https://help.goorm.io/en/goormide/18.faq/language-and-environment/selenium-chrom
 keyword = "your keyword"
 ```
 
-- 동적 사이트에서의 크롤링: Crawler-GoogleImg, Crawler-NaverImg 
+- 동적 사이트에서의 크롤링: Crawler-WebImage/main.py
 ```
 0. images 디렉토리를 생성
-1. Google, Naver 중 이미지를 얻을 곳을 선택하고 그에 맞는 디렉토리를 선택
-2. Crawler/main.py의 search_term에 검색어를 입력
-3. Crawler/main.py의 max_image에 다운로드 할 이미지 수를 입력
-4. 터미널에 python main.py 입력
+1. main.py 파일 열기
+2. 검색할 키워드, 다운로드 받을 이미지 수, 크롤링 할 사이트를 입력
+3. 터미널에 python main.py 입력
 ```
 #### Example
 ```python
-search_term = "your keyword"
-max_image = 150
+# 검색할 키워드 입력
+name_list = ["서울"]
+
+# 총 다운로드 받을 이미지 수 - 100을 수정
+max_image = 200
+
+# 크롤링 할 사이트 입력 - 1. Google 2. Naver 3. Both
+crawler_site = "Both"
 ```
 
 ## Architecture
