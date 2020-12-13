@@ -6,7 +6,6 @@
 # 검색할 키워드 입력
 name_list = ["First Your Keyword", "Second Your Keyword", "..."]
 
-
 # 총 다운로드 받을 이미지 수 - 100을 수정
 max_image = 100
 
