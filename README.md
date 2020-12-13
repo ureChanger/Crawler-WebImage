@@ -16,7 +16,7 @@ Google과 Naver의 검색 이미지들을 한번에 원하는 수 만큼 다운�
 ![image](https://user-images.githubusercontent.com/56578913/101244452-053e2b00-374a-11eb-88aa-7b50aa256ad1.png)
 ![image](https://user-images.githubusercontent.com/56578913/101244478-2141cc80-374a-11eb-924f-c559f6d4d9a8.png)
 
-### For Dynamic Site(추천)
+### For Dynamic Site (Recommendation)
 ![image](https://user-images.githubusercontent.com/56578913/102014987-161b1c00-3d9c-11eb-815f-176fc3085c8d.png)
 ![image](https://user-images.githubusercontent.com/56578913/101245328-687e8c00-374f-11eb-9986-fd826e7611c6.png)
 
