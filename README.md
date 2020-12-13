@@ -8,7 +8,7 @@ Google과 Naver의 검색 이미지들을 한번에 원하는 수 만큼 다운�
 >![python_badge](https://img.shields.io/badge/-ver_2.7-blue?logo=Python&logoColor=white)
 >![Python_badge](https://img.shields.io/badge/-ver_3.6-blue?logo=Python&logoColor=white)
 
-- 기간: 2020.12.01 ~ 2020.12.05
+- 기간: 2020.12.01 ~ 2020.12.13
 - [참고 기술블로그](https://towardsdatascience.com/image-scraping-with-python-a96feda8af2d)
 
 ## Example
