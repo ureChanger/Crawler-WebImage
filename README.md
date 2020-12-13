@@ -17,7 +17,7 @@ Google과 Naver의 검색 이미지들을 한번에 원하는 수 만큼 다운�
 ![image](https://user-images.githubusercontent.com/56578913/101244478-2141cc80-374a-11eb-924f-c559f6d4d9a8.png)
 
 ### For Dynamic Site
-![image](https://user-images.githubusercontent.com/56578913/101245308-4be25400-374f-11eb-8365-ba71fcfbc328.png)
+![image](https://user-images.githubusercontent.com/56578913/102014866-9b520100-3d9b-11eb-9374-0881046c2e29.png)
 ![image](https://user-images.githubusercontent.com/56578913/101245328-687e8c00-374f-11eb-9986-fd826e7611c6.png)
 
 ## Dependency Module - 사용 전에 꼭 ! 😆
