@@ -21,7 +21,7 @@ Google과 Naver의 검색 이미지들을 한번에 원하는 수 만큼 다운�
 ![image](https://user-images.githubusercontent.com/56578913/101245328-687e8c00-374f-11eb-9986-fd826e7611c6.png)
 
 ## Dependency Module - 사용 전에 꼭 ! 😆
->정적 페이지를 위한 크롤링 파일은 Beautiful Soup, urllib를, 동적 페이지를 위한 크롤링 디렉토리는 Selenium, Pillow를 주로 이용함
+>정적 페이지를 위한 크롤링 파일은 Beautiful Soup, urllib를, 동적 페이지를 위한 크롤링 디렉토리는 Selenium, Requests를 주로 이용함
 
 When Use on Static Site(crawlingGoogle.py, crawlingNaver.py)
 ``` 
