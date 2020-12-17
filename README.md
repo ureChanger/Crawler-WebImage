@@ -96,5 +96,6 @@ from download_image import persist_image
 |`fetch_image_urls`|이미지의 url을 가져오는 함수|
 |`persist_image`|이미지를 정해진 경로에 저장하는 함수|
 
+
 ## Developer
 - [박길현](https://github.com/ureChanger)
